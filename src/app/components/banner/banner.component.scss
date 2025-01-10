@@ -1,0 +1,17 @@
+@use '@app/app.component.scss' as app;
+
+@include app.size();
+@include app.colors();
+
+.banner {
+    background: url('@assets/img/back.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (min-width: 601px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}

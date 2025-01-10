@@ -1,0 +1,22 @@
+<div class="timeline-container">
+    <div class="header">
+        <div class="avatar">
+            <span>K</span>
+        </div>
+        <h2 class="text-center display-4 fw-bold">About Me</h2>
+    </div>
+    <hr>
+
+    <div class="timeline">
+        <div class="timeline-line"></div>
+        <div class="timeline-items">
+            <div *ngFor="let item of education; let i = index" class="timeline-item" [ngClass]="timelineItems[i]">
+                <div class="content">
+                    <h5 class=" card-title fw-light fs-5 text-center">{{item.title}}</h5>
+                    <p class=" card-text text-center">{{ item.institution }}</p>
+                    <p class=" card-text text-center">{{ item.date }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

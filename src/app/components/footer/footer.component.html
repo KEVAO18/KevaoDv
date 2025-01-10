@@ -1,1 +1,46 @@
-<p>footer works!</p>
+<footer [id]="['footer']">
+    <div class="bg-main text-end">
+        <div class="container py-4">
+            <span class="px-2" *ngFor="let redes of this.data">
+                <a class="text-decoration-none text-light fs-5" [href]="[redes.url]" target="_blank">
+                    <fa-icon [icon]="[
+                        icons[redes.name].prefix, 
+                        icons[redes.name].iconName
+                    ]"></fa-icon>
+                </a>
+            </span>
+        </div>
+    </div>
+    <div>
+        <div class="text-bg-light text-center">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-4 d-flex flex-column justify-content-start">
+                        <h3 class="fw-light">{{ personal.name }}</h3>
+                        <hr>
+                        <p>{{ personal.profession }}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="fw-light">Page Links</h4>
+                        <ul class="list-unstyled">
+                            <li class="nav-item my-4">
+                                <a class="text-decoration-none text-dark nav-link" [routerLink]="['/home']">Home</a>
+                            </li>
+                            <li class="nav-item my-4">
+                                <a class="text-decoration-none text-dark nav-link" [routerLink]="['/contact']">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="fw-light">Social Networks</h4>
+                        <ul class="list-unstyled">
+                            <li class="nav-item my-4" *ngFor=" let item of this.data">
+                                <a class="text-decoration-none text-dark nav-link" [href]="[item.url]" target="_blank">{{ item.name }}</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

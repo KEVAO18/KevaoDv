@@ -3,6 +3,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "resolveJsonModule": true,
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
@@ -22,6 +23,7 @@
       "@app/*": ["src/app/*"],
       "@components/*": ["src/app/components/*"],
       "@assets/*": ["src/assets/*"],
+      "@cv": ["src/app/Jsons/cv.json"],
     }
   },
   "angularCompilerOptions": {

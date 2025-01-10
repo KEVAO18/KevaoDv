@@ -1,0 +1,320 @@
+{
+    "mainData": {
+        "personal": {
+            "name": "Kevin Andres Orrego Martinez",
+            "profession": "Desarrollador Web y de Videojuegos Indie",
+            "nickname": "KevaoDv",
+            "email": "kevao.dev@gmail.com",
+            "phone number": "+57 3126899514",
+            "location": "Medellín, Colombia",
+            "Hobbies": "Videojuegos, Programación, Escribir Horror"
+        },
+        "social": [
+            {
+                "name": "GitHub",
+                "user": "KEVAO18",
+                "url": "https://github.com/KEVAO18"
+            },
+            {
+                "name": "LinkedIn",
+                "user": "Kevin Andres Orrego Martínez",
+                "url": "https://www.linkedin.com/in/kevaodv/"
+            },
+            {
+                "name": "X",
+                "user": "KevaoD",
+                "url": "https://x.com/KevaoD"
+            },
+            {
+                "name": "Instagram",
+                "user": "kevao20",
+                "url": "https://www.instagram.com/kevao20/"
+            },
+            {
+                "name": "Facebook",
+                "user": "Kevao Dv",
+                "url": "https://www.facebook.com/KEVAODv"
+            },
+            {
+                "name": "Itchio",
+                "user": "kevaodv",
+                "url": "https://kevaodv.itch.io/"
+            },
+            {
+                "name": "AllMyLinks",
+                "user": "kevaodv",
+                "url": "https://allmylinks.com/kevaodv"
+            }
+        ],
+        "about": [
+            {
+                "lang": "es",
+                "text": [
+                    {
+                        "content": "Desarrollador web con años de experiencia, caracterizado por ser innovador y proactivo. Tengo las habilidades para crear páginas web elegantes y de vanguardia, además de diseñar aplicaciones para clientes exigentes."
+                    },
+                    {
+                        "content": "Organizado y con capacidad para realizar múltiples tareas, tengo experiencia en programación de proyectos, mejora de diseños y verificación de códigos. Habilidad en comunicación asertiva y gran adaptabilidad a entornos sociales."
+                    }
+                ]
+            },
+            {
+                "lang": "en",
+                "text": [
+                    {
+                        "content": "Web developer with years of experience, characterized by being innovative and proactive. I have the skills to create elegant and cutting-edge websites, as well as design applications for demanding clients."
+                    },
+                    {
+                        "content": "Organized and with multitasking abilities, I have experience in project programming, design implementation, and code verification. Proficient in assertive communication and highly adaptable to social environments."
+                    }
+                ]
+            }
+        ],
+        "Education": [
+            {
+                "type": "Tecnologia",
+                "title": "Desarrollo de Software",
+                "institution": "ITM",
+                "date": "Actualmente"
+            },
+            {
+                "type": "Curso",
+                "title": "Desarrollador de Videojuegos",
+                "institution": "Ubicua Technology",
+                "date": "2021 - 2022"
+            },
+            {
+                "type": "Educacion Media",
+                "title": "Bachiller en Media Técnica Informática",
+                "institution": "INEM José Félix De Restrepo",
+                "date": "2019"
+            }
+        ],
+        "courses": [
+            {
+                "title": "Principios de PHP",
+                "institution": "SoloLearn ",
+                "date": "2019"
+            },
+            {
+                "title": "Principios de Java",
+                "institution": "SoloLearn ",
+                "date": "2019"
+            },
+            {
+                "title": "Fundamentos de HTML",
+                "institution": "SoloLearn ",
+                "date": "2019"
+            },
+            {
+                "title": "Fundamentos de CSS",
+                "institution": "SoloLearn ",
+                "date": "2019"
+            },
+            {
+                "title": "Fundamentos de JavaScript",
+                "institution": "SoloLearn ",
+                "date": "2019"
+            },
+            {
+                "title": "Fundamentos SQL",
+                "institution": "SoloLearn ",
+                "date": "2019"
+            },
+            {
+                "title": "Introducción a la Programación de Dispositivos Móviles",
+                "institution": "Universidad de Medellín",
+                "date": "2019"
+            }
+        ],
+        "skills": {
+            "web": [
+                {
+                    "name": "JavaScript",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
+                    "type": "programming language"
+                },
+                {
+                    "name": "TypeScript",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+                    "type": "programming language"
+                },
+                {
+                    "name": "PHP",
+                    "img": "https://cdn.freebiesupply.com/logos/large/2x/php-1-logo-png-transparent.png",
+                    "type": "programming language"
+                },
+                {
+                    "name": "SQL",
+                    "img": "https://www.pngplay.com/wp-content/uploads/7/Mysql-Logo-PNG-HD-Quality.png",
+                    "type": "Query language"
+                },
+                {
+                    "name": "HTML",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Html5_dise%C3%B1o_web.png",
+                    "type": "markup language"
+                },
+                {
+                    "name": "CSS",
+                    "img": "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
+                    "type": "style sheet language"
+                },
+                {
+                    "name": "SCSS",
+                    "img": "https://cdn-icons-png.flaticon.com/512/5968/5968358.png",
+                    "type": "style sheet language"
+                },
+                {
+                    "name": "JSON",
+                    "img": "https://cdn-icons-png.flaticon.com/512/136/136443.png",
+                    "type": "data interchange format"
+                },
+                {
+                    "name": "Angular",
+                    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png",
+                    "type": "framework"
+                },
+                {
+                    "name": "Bootstrap",
+                    "img": "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+                    "type": "framework"
+                },
+                {
+                    "name": "Laravel",
+                    "img": "https://static-00.iconduck.com/assets.00/laravel-icon-1990x2048-xawylrh0.png",
+                    "type": "framework"
+                }
+            ],
+            "tools": [
+                {
+                    "name": "Git",
+                    "img": "https://cdn.iconscout.com/icon/free/png-256/free-git-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175219.png?f=webp&w=256",
+                    "type": "version control system"
+                },
+                {
+                    "name": "Postman",
+                    "img": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+                    "type": "API client"
+                },
+                {
+                    "name": "Figma",
+                    "img": "https://blog.greggant.com/images/posts/2019-04-25-figma/Figma.png",
+                    "type": "web-based vector graphics editor"
+                },
+                {
+                    "name": "Composer",
+                    "img": "https://cdn-icons-png.flaticon.com/512/919/919840.png",
+                    "type": "dependency manager for PHP"
+                }
+            ],
+            "Game": [
+                {
+                    "name": "Unity",
+                    "img": "https://img.icons8.com/fluent/512/unity.png",
+                    "type": "game engine"
+                },
+                {
+                    "name": "Godot",
+                    "img": "https://iconape.com/wp-content/png_logo_vector/godot-logo.png",
+                    "type": "3D computer graphics software"
+                },
+                {
+                    "name": "C#",
+                    "img": "https://iconape.com/wp-content/png_logo_vector/c.png",
+                    "type": "programming language"
+                }
+            ]
+        },
+        "projects": [
+            {
+                "title": "Kontab_V2",
+                "description": "Sistema contable creado para empresas pequeñas y medianas que necesitan mantener sus cuentas en orden.",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "PHP",
+                    "MySQL",
+                    "Bootstrap",
+                    "composer"
+                ],
+                "url": "https://github.com/KEVAO18/Kontab_V2/releases/tag/Kontab_Public_re",
+                "plataforma": "GitHub",
+                "repo": "https://github.com/KEVAO18/Kontab_V2"
+            },
+            {
+                "title": "poki",
+                "description": "proyecto front realizado con la api de pokemon.",
+                "technologies": [
+                    "Angular",
+                    "HTML",
+                    "SCSS",
+                    "TypeScript",
+                    "Bootstrap"
+                ],
+                "url": "https://poki-hazel.vercel.app/home/1/0",
+                "plataforma": "GitHub",
+                "repo": "https://github.com/KEVAO18/poki"
+            },
+            {
+                "title": "plantillas",
+                "description": "serie de plantillas front",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "Bootstrap"
+                ],
+                "url": "https://kevao18.github.io/plantillas/",
+                "plataforma": "GitHub",
+                "repo": "https://github.com/KEVAO18/plantillas"
+            },
+            {
+                "title": "clasificacion-IPs",
+                "description": "proyecto creado para clasificar ip segun algunos criterios.",
+                "technologies": [
+                    "Python"
+                ],
+                "url": "https://github.com/KEVAO18/clasificacion-IPs/releases/tag/v2_base_code",
+                "plataforma": "GitHub",
+                "repo": "https://github.com/KEVAO18/plantillas"
+            },
+            {
+                "title": "kevao-css",
+                "description": "Repositorio para css predefinido",
+                "technologies": [
+                    "CSS"
+                ],
+                "url": "https://github.com/KEVAO18/kevao-css",
+                "plataforma": "GitHub",
+                "repo": "https://github.com/KEVAO18/kevao-css"
+            },
+            {
+                "title": "learning_y",
+                "description": "proyecto universitario",
+                "technologies": [
+                    "PHP",
+                    "HTML",
+                    "JavaScript",
+                    "CSS",
+                    "MySQL",
+                    "Bootstrap"
+                ],
+                "url": "https://kevao18.github.io/frontEndBlogProject/",
+                "plataforma": "GitHub",
+                "repo": "https://github.com/KEVAO18/frontEndBlogProject"
+            },
+            {
+                "title": "War of Mathematics",
+                "description": "This game is focused on the learning and practice of mathematics in primary education.",
+                "technologies": [
+                    "Godot",
+                    "GDScript",
+                    "AppInventor"
+                ],
+                "url": "https://kevao18.github.io/plantillas/wm.html",
+                "plataforma": "Itch.io",
+                "repo": "https://kevaodv.itch.io/war-of-mathematics"
+            }
+        ]
+    }
+}

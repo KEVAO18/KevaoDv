@@ -1,1 +1,19 @@
-<p>projects works!</p>
+<div class="container" [id]="['proyectos']">
+    <h3 class="text-center my-5 display-4 fw-bold">Proyectos</h3>
+    <hr>
+    <div class="row">
+        <div class="col-sm-12 col-md-4 my-2" *ngFor="let item of proyectos">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h6 class="card-title">{{ item.title }}</h6>
+                    <span class="badge rounded-pill text-bg-dark mx-1" *ngFor="let tecnos of item.technologies" >{{ tecnos }}</span>
+                    <p>{{ item.description }}</p>
+                    <div class="d-grid gap-2">
+                        <a [href]="item.url" class="btn btn-outline-primary" target="_blank">Ver Proyecto</a>
+                        <a [href]="item.repo" class="btn btn-outline-dark" target="_blank">{{ item.plataforma }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

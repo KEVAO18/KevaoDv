@@ -1,1 +1,15 @@
-<p>skills works!</p>
+<div [id]="['skills']" class="container">
+    <div class="text-center">
+        <h3 class="text-center my-5 display-4 fw-bold">Skills</h3>
+        <hr>
+    </div>
+    <p class="text-center my-3 fs-5 fw-bold">
+        Tecnologias Web <span class="badge text-bg-secondary mx-1 text-uppercase" *ngFor="let skill of skills.web">{{ skill.name }}</span>
+    </p>
+    <p class="text-center my-3 fs-5 fw-bold">
+        Herramientas <span class="badge text-bg-secondary mx-1 text-uppercase" *ngFor="let skill of skills.tools">{{ skill.name }}</span>
+    </p>
+    <p class="text-center my-3 fs-5 fw-bold">
+        Desarrollo de videojuegos <span class="badge text-bg-secondary mx-1 text-uppercase" *ngFor="let skill of skills.Game">{{ skill.name }}</span>
+    </p>
+</div>

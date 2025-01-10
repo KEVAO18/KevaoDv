@@ -1,1 +1,10 @@
-<p>about works!</p>
+<div class="container" [id]="['about']">
+    <div class="py-2-r px-2-r text-center row">
+        <app-about-timeline></app-about-timeline>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-6" *ngFor="let item of about">
+            <p class=" card-text text-center fshadow">{{ item.content }}</p>
+        </div>
+    </div>
+</div>

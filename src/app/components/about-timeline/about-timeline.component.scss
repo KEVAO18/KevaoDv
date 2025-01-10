@@ -1,0 +1,124 @@
+.timeline-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 8px;
+    transform: rotate(0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    transition: .5s;
+}
+
+.avatar:hover {
+    border-radius: 50%;
+    transform: rotate(360deg);
+    transition: .5s;
+}
+
+.avatar span {
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.timeline {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.timeline-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: #e1e8ff;
+    top: 0;
+}
+
+.timeline-items {
+    position: relative;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.timeline-item .content {
+    background: #3498db;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 2rem);
+    color: whitesmoke;
+    transition: box-shadow 0.3s ease;
+}
+
+.timeline-item .content:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.349);
+}
+
+.timeline-item .dot {
+    width: 16px;
+    height: 16px;
+    background-color: #4285f4;
+    border-radius: 50%;
+    margin: 0 1rem;
+    z-index: 1;
+}
+
+.timeline-item.left {
+    flex-direction: row;
+}
+
+.timeline-item.right {
+    flex-direction: row-reverse;
+}
+
+.timeline-item.left .content {
+    margin-right: auto;
+}
+
+.timeline-item.right .content {
+    margin-left: auto;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .timeline-line {
+        left: 0;
+    }
+
+    .timeline-item {
+        flex-direction: row !important;
+        margin-left: 1rem;
+    }
+
+    .timeline-item .content {
+        width: calc(100% - 3rem);
+        margin-left: 2rem !important;
+    }
+
+    .timeline-item .dot {
+        position: absolute;
+        left: 0;
+    }
+}
