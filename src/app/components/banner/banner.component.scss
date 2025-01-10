@@ -1,10 +1,8 @@
-@use '@app/app.component.scss' as app;
-
-@include app.size();
-@include app.colors();
+@use 'src/assets/styles/_colors.scss';
+@use 'src/assets/styles/_size.scss';
 
 .banner {
-    background: url('@assets/img/back.jpg') no-repeat center center;
+    background: url('src/assets/img/back.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }

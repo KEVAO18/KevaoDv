@@ -1,0 +1,61 @@
+$main-color: #3498db;
+$color-1: #3498db87;
+$color-2: #f9f9f9;
+$color-3: #222222;
+$color-4: #111111;
+
+/****************************/
+/*          fondos          */
+/****************************/
+
+
+.bg-main {
+    background: $main-color !important;
+}
+
+.bg-1 {
+    background: $color-1 !important;
+}
+
+.bg-2 {
+    background: $color-2 !important;
+}
+
+.bg-3 {
+    background: $color-3 !important;
+}
+
+.bg-4 {
+    background: $color-4 !important;
+}
+
+
+
+/****************************/
+/*          color           */
+/****************************/
+
+
+.top-bar>i {
+    color: $color-2 !important;
+}
+
+.fcolor-main {
+    color: $main-color !important;
+}
+
+.fcolor-1 {
+    color: $color-1 !important;
+}
+
+.fcolor-2 {
+    color: $color-2 !important;
+}
+
+.fcolor-3 {
+    color: $color-3 !important;
+}
+
+.fcolor-4 {
+    color: $color-4 !important;
+}

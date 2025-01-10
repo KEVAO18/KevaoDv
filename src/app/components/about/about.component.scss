@@ -1,9 +1,7 @@
-@use '@app/app.component.scss' as app;
-
-@include app.size();
-@include app.colors();
-@include app.padding();
-@include app.margin();
+@use 'src/assets/styles/_colors.scss';
+@use 'src/assets/styles/_size.scss';
+@use 'src/assets/styles/_padding.scss';
+@use 'src/assets/styles/_margin.scss';
 
 .logo {
     height: 140px;
