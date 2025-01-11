@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class MailSendService {
 
-  private apiUrl = 'http://3.144.248.86/';
+  private apiUrl = 'https://3.144.248.86/';
 
   constructor(private http: HttpClient) { }
 
