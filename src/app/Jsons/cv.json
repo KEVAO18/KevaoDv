@@ -289,21 +289,6 @@
                 "repo": "https://github.com/KEVAO18/kevao-css"
             },
             {
-                "title": "learning_y",
-                "description": "proyecto universitario",
-                "technologies": [
-                    "PHP",
-                    "HTML",
-                    "JavaScript",
-                    "CSS",
-                    "MySQL",
-                    "Bootstrap"
-                ],
-                "url": "https://kevao18.github.io/frontEndBlogProject/",
-                "plataforma": "GitHub",
-                "repo": "https://github.com/KEVAO18/frontEndBlogProject"
-            },
-            {
                 "title": "War of Mathematics",
                 "description": "This game is focused on the learning and practice of mathematics in primary education.",
                 "technologies": [
