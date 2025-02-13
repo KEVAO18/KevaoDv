@@ -2,7 +2,7 @@
     "mainData": {
         "personal": {
             "name": "Kevin Andres Orrego Martinez",
-            "profession": "Desarrollador Web y de Videojuegos Indie",
+            "profession": "Desarrollador Web y Videojuegos Indie",
             "nickname": "KevaoDv",
             "email": "kevao.dev@gmail.com",
             "phone number": "+57 3126899514",
@@ -21,21 +21,6 @@
                 "url": "https://www.linkedin.com/in/kevaodv/"
             },
             {
-                "name": "X",
-                "user": "KevaoD",
-                "url": "https://x.com/KevaoD"
-            },
-            {
-                "name": "Instagram",
-                "user": "kevao20",
-                "url": "https://www.instagram.com/kevao20/"
-            },
-            {
-                "name": "Facebook",
-                "user": "Kevao Dv",
-                "url": "https://www.facebook.com/KEVAODv"
-            },
-            {
                 "name": "Itchio",
                 "user": "kevaodv",
                 "url": "https://kevaodv.itch.io/"
@@ -51,7 +36,7 @@
                 "lang": "es",
                 "text": [
                     {
-                        "content": "Desarrollador web con años de experiencia, caracterizado por ser innovador y proactivo. Tengo las habilidades para crear páginas web elegantes y de vanguardia, además de diseñar aplicaciones para clientes exigentes."
+                        "content": "Desarrollador web con experiencia, caracterizado por ser innovador y proactivo. Tengo las habilidades para crear páginas web elegantes y de vanguardia, además de diseñar aplicaciones para clientes exigentes."
                     },
                     {
                         "content": "Organizado y con capacidad para realizar múltiples tareas, tengo experiencia en programación de proyectos, mejora de diseños y verificación de códigos. Habilidad en comunicación asertiva y gran adaptabilidad a entornos sociales."
@@ -62,7 +47,7 @@
                 "lang": "en",
                 "text": [
                     {
-                        "content": "Web developer with years of experience, characterized by being innovative and proactive. I have the skills to create elegant and cutting-edge websites, as well as design applications for demanding clients."
+                        "content": "Web developer with experience, characterized by being innovative and proactive. I have the skills to create elegant and cutting-edge websites, as well as design applications for demanding clients."
                     },
                     {
                         "content": "Organized and with multitasking abilities, I have experience in project programming, design implementation, and code verification. Proficient in assertive communication and highly adaptable to social environments."

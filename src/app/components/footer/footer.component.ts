@@ -2,34 +2,49 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { CvService } from '@app/servicios/cv.service';
-import { faFacebook, faXTwitter, faInstagram, faItchIo, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faItchIo, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
-import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-footer',
-  imports: [CommonModule, FontAwesomeModule, RouterLink],
+  imports: [CommonModule, FontAwesomeModule],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss'
 })
 export class FooterComponent implements OnInit {
 
   icons: any = {
-    "Facebook": faFacebook,
-    "X": faXTwitter,
-    "Instagram": faInstagram,
     "Itchio": faItchIo,
     "LinkedIn": faLinkedin,
     "GitHub": faGithub,
     "AllMyLinks": faAddressBook
   };
 
+  pageLinks: any[] = [
+    {
+      "name":"Home",
+      "url": "home"
+    },
+    {
+      "name":"About",
+      "url": "about"
+    },
+    {
+      "name":"Skills",
+      "url": "skills"
+    },
+    {
+      "name":"Projects",
+      "url": "projects"
+    }
+  ]
+
   data!: any;
 
   personal!: any;
   
   constructor(private cv: CvService, private libreria: FaIconLibrary) { 
-    this.libreria.addIcons(faFacebook, faXTwitter, faInstagram, faItchIo, faLinkedin, faGithub, faAddressBook);
+    this.libreria.addIcons(faItchIo, faLinkedin, faGithub, faAddressBook);
   }
 
   ngOnInit() {

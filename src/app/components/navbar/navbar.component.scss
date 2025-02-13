@@ -1,1 +1,39 @@
 @use 'src/assets/styles/_colors.scss';
+
+@media screen and (max-width: 768px) {
+    .nav-box::after {
+        content: '';
+        position: absolute;
+        width: 0%;
+        height: 5%;
+        background-color: white;
+        opacity: 0.2;
+        z-index: -1;
+        transition: width 0.3s;
+    }
+    
+    .nav-box:hover::after {
+        width: 17%;
+        opacity: 0.9;
+    }   
+}
+
+@media screen and (min-width: 768px) {
+    .nav-box::after {
+        content: '';
+        position: absolute;
+        bottom: 15px;
+        width: 0%;
+        height: 10%;
+        background-color: white;
+        opacity: 0.2;
+        z-index: -1;
+        transition: width 0.3s;
+    }
+    
+    .nav-box:hover::after {
+        width: 6%;
+        opacity: 0.9;
+    }   
+    
+}
