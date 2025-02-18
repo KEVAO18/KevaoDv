@@ -3,17 +3,25 @@
     <hr>
     <div class="row">
         <div class="col-sm-12 col-md-4 my-2" *ngFor="let item of proyectos">
-            <div class="card shadow">
-                <div class="card-body">
+            <div class="card shadow h-100 d-flex flex-column">
+                <div class="card-body d-flex flex-column flex-grow-1">
                     <h6 class="card-title">{{ item.title }}</h6>
-                    <span class="badge rounded-pill text-bg-dark mx-1" *ngFor="let tecnos of item.technologies" >{{ tecnos }}</span>
-                    <p>{{ item.description }}</p>
-                    <div class="d-grid gap-2">
-                        <a [href]="item.url" class="btn btn-outline-primary" target="_blank">Ver Proyecto</a>
-                        <a [href]="item.repo" class="btn btn-outline-dark" target="_blank">{{ item.plataforma }}</a>
+                    
+                    <div class="mb-2">
+                        <span class="badge rounded-pill text-bg-dark mx-1" *ngFor="let tecnos of item.technologies">
+                            {{ tecnos }}
+                        </span>
                     </div>
+        
+                    <p class="flex-grow-1">{{ item.description }}</p> 
+                </div>
+        
+                <div class="d-grid gap-2 p-3">
+                    <a [href]="item.url" class="btn btn-outline-primary" target="_blank">Ver Proyecto</a>
+                    <a [href]="item.repo" class="btn btn-outline-dark" target="_blank">{{ item.plataforma }}</a>
                 </div>
             </div>
         </div>
+        
     </div>
 </div>
