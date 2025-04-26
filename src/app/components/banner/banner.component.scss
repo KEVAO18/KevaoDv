@@ -13,3 +13,9 @@
         margin-top: -56px;
     }
 }
+
+@media print {
+    * {
+        display: none !important;
+    }
+}

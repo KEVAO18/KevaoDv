@@ -1,1 +1,7 @@
 @use 'src/assets/styles/_colors.scss';
+
+@media print {
+  *{
+        display: none !important;
+    }
+}
