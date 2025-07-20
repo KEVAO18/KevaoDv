@@ -1,0 +1,14 @@
+<app-navbar addClass="" [pagAct]="pagAct"></app-navbar>
+<main class="mb-5">
+
+    <div class="container" [id]="['proyectos']">
+        <h3 class="text-center my-5 display-4 fw-bold">Proyectos</h3>
+        <hr>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 my-2" *ngFor="let repo of repositories">
+                <app-github-projects [project]="repo"></app-github-projects>
+            </div>
+        </div>
+    </div>  
+</main>
+<app-footer></app-footer>

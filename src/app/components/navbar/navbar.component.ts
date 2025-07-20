@@ -23,6 +23,8 @@ export class NavbarComponent implements OnInit {
 
   @Input() pagAct!: string;
 
+  @Input() addClass!: string;
+
   data!: any;
 
   redes!: any;
